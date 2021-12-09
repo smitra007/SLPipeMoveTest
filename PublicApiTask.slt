@@ -1,0 +1,25 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "PublicApiTask",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "llfeed_token": "VdnZhhG4CHsJZIveoqeGCQyM3mmFPqXy",
+        "notification": {
+            "slack_recipients": [
+                {
+                    "channel": [],
+                    "user": []
+                }
+            ]
+        },
+        "pipeline_parameters": {},
+        "pipeline_path": null,
+        "snaplex_path": "Cloud"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
